@@ -35,6 +35,5 @@ This is a standalone file that includes both the launcher and your code.
 Reminder: Although the file extension is .c, the language used is C#.
 
 Code Example
-~~~
 MessageBox.Show("Hello World");
-~~~
+
