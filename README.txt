@@ -26,6 +26,7 @@ Place it in the same directory as launcher.exe.
 
 Run launcher.exe.
 
+<Common to both Option A and B>
 Output
 Upon successful execution, temp_run.exe is generated.
 
