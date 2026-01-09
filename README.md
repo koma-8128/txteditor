@@ -1,4 +1,4 @@
-txteditor.exe is a dedicated text editor for this environment.
+txteditor.exe is a dedicated text editor for this environment.\n
 1.Add the necessary code to the designated area. Note: The programming language used is C#.
 2.Click RUN to test it. You may use any filename as long as it is easy to identify.
 
