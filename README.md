@@ -7,6 +7,8 @@ txteditor.exe is a dedicated text editor for this environment.
 1.Add the necessary code to the designated area. Note: The programming language used is C#.
 
 2.Click RUN to test it. You may use any filename as long as it is easy to identify.
+
+Important Note: Clicking RUN will automatically overwrite the existing code.c file located in the same directory as txteditor.exe.
 ~~~
 ~~~
 launcher.exe is used to execute the code you have created.
