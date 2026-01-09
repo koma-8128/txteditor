@@ -1,4 +1,7 @@
 ~~~
+The objective of this project is to provide a streamlined environment for C# development and seamless conversion to standalone EXE files.
+~~~
+~~~
 txteditor.exe is a dedicated text editor for this environment.
 
 1.Add the necessary code to the designated area. Note: The programming language used is C#.
