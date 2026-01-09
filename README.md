@@ -1,29 +1,36 @@
 ~~~
-The objective of this project is to provide a streamlined environment for C# development and seamless conversion to standalone EXE files.
+Project Goal
+To simplify C# coding and easily convert scripts into executable (.exe) files.
 ~~~
 ~~~
-txteditor.exe is a dedicated text editor for this environment.
-
-1.Add the necessary code to the designated area. Note: The programming language used is C#.
-
-2.Click RUN to test it. You may use any filename as long as it is easy to identify.
-
-Important Note: Clicking RUN will automatically overwrite the existing code.c file located in the same directory as txteditor.exe.
+Settings
+You can switch between Japanese and English via 設定(Setting).
 ~~~
 ~~~
-launcher.exe is used to execute the code you have created.
+Instructions
+Option A: Using txteditor.exe (Recommended)
+Add your C# code to the designated area.
 
-1.Place the code file created by txteditor.exe into the same directory as launcher.exe.
+Click RUN to test and generate the file.
 
-2.Rename the file to code.c. Please ensure the name is correct, as launcher.exe specifically looks for "code.c" to run.
+Note: You do not need to run launcher.exe when using the editor.
 
-3.Run launcher.exe.
+Caution: The code.c file in the directory will be overwritten every time you click RUN.
 
-4.If it runs successfully, a file named temp_run.exe will be generated simultaneously. temp_run.exe contains both launcher.exe and code.c, allowing it to function as a standalone application.
+
+Option B: Manual Method (Without txteditor.exe)
+Rename your source file to code.c and place it in the same directory as launcher.exe.
+
+Run launcher.exe.
+
+Output
+When successfully executed, temp_run.exe is generated.
 ~~~
 ~~~
-Important: Although the file extension is generated as .c, the actual language is C#. Please be careful not to confuse them.
+This file is a standalone executable containing both the launcher and your code.
 
-Code Example
-By entering the following code, you can display a "Hello World" message: MessageBox.Show("Hello World");
+Reminder: The file extension is .c, but the language must be C#.
+
+Example Code
+MessageBox.Show("Hello World");
 ~~~
